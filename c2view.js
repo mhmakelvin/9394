@@ -1081,8 +1081,8 @@ let chu2_javascript = `
           if (rate < 12.0) return \"color:purple\";
           if (rate < 13.0) return \"color:#cd853f\";
           if (rate < 14.0) return \"color:silver\";
-          if (rate < 14.5) return \"color:#ff4700\";
-          if (rate < 15.0) return \"color:#fffacd\";
+          if (rate < 14.5) return \"color:gold\";
+          if (rate < 15.0) return \"color:#ffdf00\";
           return \"color:#00fa9a\";
         },
         score2rank(score){
