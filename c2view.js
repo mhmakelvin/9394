@@ -350,6 +350,7 @@ let chu2_javascript = `
           {title: \"Memory of Beach\", genre: \"VARIETY\"},
           {title: \"SON OF SUN\", genre: \"VARIETY\"},
           {title: \"Sound Chimera\", genre: \"VARIETY\"},
+          {title: \"Blackmagik Blazing\", genre: \"VARIETY\"},
           {title: \"セイクリッド　ルイン\", genre: \"VARIETY\"},
           {title: \"極圏\", genre: \"VARIETY\"},
           {title: \"Scarlet Lance\", genre: \"VARIETY\"},
@@ -365,8 +366,12 @@ let chu2_javascript = `
           {title: \"DRAGONLADY\", genre: \"VARIETY\"},
           {title: \"FREEDOM DiVE\", genre: \"VARIETY\"},
           {title: \"DataErr0r\", genre: \"VARIETY\"},
+          {title: \"Sakura Fubuki\", genre: \"VARIETY\"},
+          {title: \"Kronos\", genre: \"VARIETY\"},
+          {title: \"JULIAN\", genre: \"VARIETY\"},
           {title: \"GOODTEK\", genre: \"VARIETY\"},
           {title: \"AVALON\", genre: \"VARIETY\"},
+          {title: \"volcanic\", genre: \"VARIETY\"},
           {title: \"Destr0yer\", genre: \"VARIETY\"},
           {title: \"檄!帝国華撃団\", genre: \"VARIETY\"},
           {title: \"Through The Tower\", genre: \"VARIETY\"},
@@ -479,6 +484,14 @@ let chu2_javascript = `
           {title: \"おまかせ！！トラブルメイ娘☆とれびちゃん\", genre: \"ORIGINAL\"},
           {title: \"願い星\", genre: \"ORIGINAL\"},
           {title: \"オススメ☆♂♀☆でぃすとぴあ\", genre: \"ORIGINAL\"},
+          {title: \"朝焼けプラットホーム\", genre: \"ORIGINAL\"},
+          {title: \"RevolutionGame\", genre: \"ORIGINAL\"},
+          {title: \"明るい未来\", genre: \"ORIGINAL\"},
+          {title: \"D.E.A.D.L.Y.\", genre: \"ORIGINAL\"},
+          {title: \"立川浄穢捕物帳\", genre: \"ORIGINAL\"},
+          {title: \"Supersonic Generation\", genre: \"ORIGINAL\"},
+          {title: \"Climax\", genre: \"ORIGINAL\"},
+          {title: \"宿星審判\", genre: \"ORIGINAL\"},
         ], // end of music genre
         outer: [
           {title: \"▲MEW▲△MEW△CAKE\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"8\", MASTER: \"11\"},
@@ -585,6 +598,7 @@ let chu2_javascript = `
           {title: \"Memory of Beach\", BASIC: \"2\", ADVANCED: \"5\", EXPERT: \"10\", MASTER: \"12+\"},
           {title: \"SON OF SUN\", BASIC: \"5\", ADVANCED: \"7+\", EXPERT: \"12+\", MASTER: \"13+\"},
           {title: \"Sound Chimera\", BASIC: \"4\", ADVANCED: \"9\", EXPERT: \"11\", MASTER: \"13+\"},
+          {title: \"Blackmagik Blazing\", BASIC: \"5\", ADVANCED: \"9+\", EXPERT: \"12\", MASTER: \"13+\"},
           {title: \"セイクリッド　ルイン\", BASIC: \"3\", ADVANCED: \"7\", EXPERT: \"11\", MASTER: \"13\"},
           {title: \"極圏\", BASIC: \"4\", ADVANCED: \"7\", EXPERT: \"11+\", MASTER: \"13\"},
           {title: \"Scarlet Lance\", BASIC: \"4\", ADVANCED: \"7+\", EXPERT: \"11+\", MASTER: \"13\"},
@@ -600,8 +614,12 @@ let chu2_javascript = `
           {title: \"DRAGONLADY\", BASIC: \"4\", ADVANCED: \"6\", EXPERT: \"11\", MASTER: \"13\"},
           {title: \"FREEDOM DiVE\", BASIC: \"5\", ADVANCED: \"8\", EXPERT: \"11\", MASTER: \"13+\"},
           {title: \"DataErr0r\", BASIC: \"3\", ADVANCED: \"7\", EXPERT: \"10\", MASTER: \"13\"},
+          {title: \"Sakura Fubuki\", BASIC: \"3\", ADVANCED: \"7\", EXPERT: \"9\", MASTER: \"12\"},
+          {title: \"Kronos\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"9+\", MASTER: \"12\"},
+          {title: \"JULIAN\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"10+\", MASTER: \"12+\"},
           {title: \"GOODTEK\", BASIC: \"4\", ADVANCED: \"7\", EXPERT: \"10+\", MASTER: \"13\"},
           {title: \"AVALON\", BASIC: \"4\", ADVANCED: \"7+\", EXPERT: \"11+\", MASTER: \"13\"},
+          {title: \"volcanic\", BASIC: \"4\", ADVANCED: \"9\", EXPERT: \"12\", MASTER: \"13\"},
           {title: \"Destr0yer\", BASIC: \"4\", ADVANCED: \"7\", EXPERT: \"11\", MASTER: \"13\"},
           {title: \"檄!帝国華撃団\", BASIC: \"2\", ADVANCED: \"4\", EXPERT: \"8\", MASTER: \"11\"},
           {title: \"Through The Tower\", BASIC: \"2\", ADVANCED: \"5\", EXPERT: \"9\", MASTER: \"12\"},
@@ -715,6 +733,14 @@ let chu2_javascript = `
           {title: \"おまかせ！！トラブルメイ娘☆とれびちゃん\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"9+\", MASTER: \"13\"},
           {title: \"願い星\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"8+\", MASTER: \"11\"},
           {title: \"オススメ☆♂♀☆でぃすとぴあ\", BASIC: \"4\", ADVANCED: \"7+\", EXPERT: \"10\", MASTER: \"13\"},
+          {title: \"朝焼けプラットホーム\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"9\", MASTER: \"11\"},
+          {title: \"RevolutionGame\", BASIC: \"2\", ADVANCED: \"5\", EXPERT: \"8\", MASTER: \"11+\"},
+          {title: \"明るい未来\", BASIC: \"4\", ADVANCED: \"6\", EXPERT: \"9\", MASTER: \"12\"},
+          {title: \"D.E.A.D.L.Y.\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"9\", MASTER: \"12\"},
+          {title: \"立川浄穢捕物帳\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"9+\", MASTER: \"13\"},
+          {title: \"Supersonic Generation\", BASIC: \"4\", ADVANCED: \"7\", EXPERT: \"11+\", MASTER: \"13\"},
+          {title: \"Climax\", BASIC: \"4\", ADVANCED: \"9+\", EXPERT: \"12+\", MASTER: \"13+\"},
+          {title: \"宿星審判\", BASIC: \"4\", ADVANCED: \"9+\", EXPERT: \"12+\", MASTER: \"14\"},
         ], // end of outer difficulty
         inner: [
           {title: \"▲MEW▲△MEW△CAKE\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.3},
@@ -821,6 +847,7 @@ let chu2_javascript = `
           {title: \"Memory of Beach\", BASIC: 0, ADVANCED: 0, EXPERT: 10.3, MASTER: 12.7},
           {title: \"SON OF SUN\", BASIC: 0, ADVANCED: 0, EXPERT: 12.7, MASTER: 13.8},
           {title: \"Sound Chimera\", BASIC: 0, ADVANCED: 9.0, EXPERT: 11.0, MASTER: 13.8},
+          {title: \"Blackmagik Blazing\", BASIC: 0, ADVANCED: 9.0, EXPERT: 12.5, MASTER: 13.9},
           {title: \"セイクリッド　ルイン\", BASIC: 0, ADVANCED: 0, EXPERT: 11.3, MASTER: 13.5},
           {title: \"極圏\", BASIC: 0, ADVANCED: 0, EXPERT: 11.7, MASTER: 13.6},
           {title: \"Scarlet Lance\", BASIC: 0, ADVANCED: 0, EXPERT: 11.9, MASTER: 13.6},
@@ -836,7 +863,11 @@ let chu2_javascript = `
           {title: \"DRAGONLADY\", BASIC: 0, ADVANCED: 0, EXPERT: 11.4, MASTER: 13.2},
           {title: \"FREEDOM DiVE\", BASIC: 0, ADVANCED: 8.5, EXPERT: 11.5, MASTER: 13.8},
           {title: \"DataErr0r\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 13.0},
+          {title: \"Sakura Fubuki\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.5},
+          {title: \"Kronos\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.4},
+          {title: \"JULIAN\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.4},
           {title: \"GOODTEK\", BASIC: 0, ADVANCED: 0, EXPERT: 10.7, MASTER: 13.3},
+          {title: \"volcanic\", BASIC: 0, ADVANCED: 0, EXPERT: 12.0, MASTER: 13.5},
           {title: \"AVALON\", BASIC: 0, ADVANCED: 0, EXPERT: 11.7, MASTER: 13.5},
           {title: \"Destr0yer\", BASIC: 0, ADVANCED: 0, EXPERT: 11.2, MASTER: 13.5},
           {title: \"檄!帝国華撃団\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.3},
@@ -950,6 +981,15 @@ let chu2_javascript = `
           {title: \"おまかせ！！トラブルメイ娘☆とれびちゃん\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 13.1},
           {title: \"願い星\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.6},
           {title: \"オススメ☆♂♀☆でぃすとぴあ\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 13.4},
+          {title: \"朝焼けプラットホーム\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.6},
+          {title: \"RevolutionGame\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.7},
+          {title: \"明るい未来\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.3},
+          {title: \"D.E.A.D.L.Y.\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.4},
+          {title: \"立川浄穢捕物帳\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 13.0},
+          {title: \"Supersonic Generation\", BASIC: 0, ADVANCED: 0, EXPERT: 11.7, MASTER: 13.4},
+          {title: \"Climax\", BASIC: 0, ADVANCED: 0, EXPERT: 12.7, MASTER: 13.9},
+          {title: \"宿星審判\", BASIC: 0, ADVANCED: 0, EXPERT: 12.8, MASTER: 14.0},
+          
         ], // end of inner difficulty
       }), // end of data
       computed: {
@@ -1041,7 +1081,7 @@ let chu2_javascript = `
           if (rate < 12.0) return \"color:purple\";
           if (rate < 13.0) return \"color:#cd853f\";
           if (rate < 14.0) return \"color:silver\";
-          if (rate < 14.5) return \"color:gold\";
+          if (rate < 14.5) return \"color:#ff4700\";
           if (rate < 15.0) return \"color:#fffacd\";
           return \"color:#00fa9a\";
         },
